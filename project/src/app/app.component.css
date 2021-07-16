@@ -1,0 +1,52 @@
+html,
+body {
+  background-color: rgb(245, 245, 245);
+}
+.logo {
+  margin: 10px;
+}
+.container {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin: 0 auto;
+  max-width: 48%;
+}
+button:focus {
+  color: #26c480;
+  background-color: #05314a;
+  border-color: #05314a;
+  box-shadow: none;
+}
+button:active {
+  color: #26c480;
+  background-color: #05314a;
+  border-color: #05314a;
+}
+button:hover {
+  background-color: #05314a;
+  border-color: #05314a;
+  color: #26c480;
+  box-shadow: #05314a;
+}
+button {
+  color: white;
+  background-color: #08517a;
+  border-color: #08517a;
+  border-radius: 0px;
+  box-shadow: inset 0 -3px 0 0 #05314a;
+}
+.sat {
+  margin: 20px;
+  width: 400px;
+}
+html,
+body {
+  height: 100%;
+}
+
+@media only screen and (max-width: 850px) {
+  .sat {
+    width: 300px;
+    margin: 20px auto;
+  }
+}
