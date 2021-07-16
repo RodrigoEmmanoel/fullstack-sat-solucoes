@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="card">
+    <div class="card-header">
+      <h3>Registrar</h3>
+    </div>
+    <div class="class-body">
+      <form>
+        <div class="form-group" id="nome">
+          <label for="name">Nome</label>
+          <input
+            value="{{ pessoa.name }}"
+            id="name"
+            type="text"
+            class="form-control"
+          />
+        </div>
+        <div class="form-group">
+          <label for="apelido">Sobrenome</label>
+          <input
+            value="{{ pessoa.apelidos }}"
+            id="apelido"
+            type="text"
+            class="form-control"
+          />
+        </div>
+        <button (click)="Salvar(pessoa)" class="btn btn-danger">Salvar</button>
+      </form>
+    </div>
+  </div>
+</div>
